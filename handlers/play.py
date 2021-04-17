@@ -84,7 +84,7 @@ async def play(client: Client, message_: Message):
         res.delete
         m = await client.send_photo(
         chat_id=message_.chat.id,
-        photo="https://telegra.ph/file/fe07b15733ed56f103cb4.jpg",
+        photo="https://telegra.ph/file/33b8eada964ff2d83e962.jpg",
         caption=f"Playing Your song Via Devil music bot.",
          ) 
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
