@@ -81,7 +81,7 @@ async def admincache(client, message: Message):
     await message.reply_text("❇️ Admin cache refreshed!")
 
 @Client.on_message(
-    filters.command("help")
+    filters.command("vchelp")
     & filters.group
     & ~ filters.edited
 )
