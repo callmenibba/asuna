@@ -132,7 +132,7 @@ async def deezer(client: Client, message_: Message):
     os.remove("final.png")
 # Jiosaavn--------------------------------------------------------------------------------------
 @Client.on_message(
-    filters.command("saavn")
+    filters.command("savn")
     & filters.group
     & ~ filters.edited
 )
